@@ -1,8 +1,8 @@
-package minimum_increments;
+package lesson01_minimum_increments;
 
 import java.util.Arrays;
 
-public class Lesson01 {
+public class MinimumIncrements {
 
 
     public static void main(String[] args) {

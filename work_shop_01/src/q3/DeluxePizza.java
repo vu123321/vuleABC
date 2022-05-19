@@ -1,4 +1,4 @@
-package Q3;
+package q3;
 
 public class DeluxePizza extends Pizza {
 

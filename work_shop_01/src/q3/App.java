@@ -1,4 +1,4 @@
-package Q3;
+package q3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

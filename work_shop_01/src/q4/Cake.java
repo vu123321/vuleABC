@@ -1,4 +1,4 @@
-package Q4;
+package q4;
 
 public class Cake {
 

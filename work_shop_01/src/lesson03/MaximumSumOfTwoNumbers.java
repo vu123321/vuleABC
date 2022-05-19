@@ -1,4 +1,4 @@
-package Lesson04;
+package lesson03;
 
 import java.util.*;
 
@@ -31,8 +31,6 @@ public class MaximumSumOfTwoNumbers {
 
             if (map.containsKey(temp)) {
                 map.get(temp).add(arrays[i]);
-//                System.out.println("--------------");
-//                System.out.println(temp + ":" + map.get(temp));
 
             } else {
                 List<Integer> nums = new ArrayList<>();
@@ -48,15 +46,10 @@ public class MaximumSumOfTwoNumbers {
             }
             Collections.sort(map.get(key));
 
-//            System.out.println("--------aaa--------------");
-//            System.out.println(map.get(key));
             List<Integer> num = new ArrayList<>(map.get(key));
             System.out.println();
 
             int n = num.size();
-//            System.out.println(num.get(n - 1));
-//            System.out.println(num.get(n - 2));
-//            System.out.println(sum);
             sum = Math.max(sum, num.get(n - 1) + num.get(n - 2));
         }
         return sum;
